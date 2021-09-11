@@ -7,7 +7,7 @@ using namespace std;
 
 void gatherinfo(int i){
     cout<<"Entry: "; date(); cout<< "\n\n";
-
+    
     cin.ignore();
     cout<<"Name: ";
     std::getline(cin, ppl.name[i]);
@@ -39,16 +39,16 @@ void gatherinfo(int i){
     cout<<"List your travels for the last 14 days: ";
     std::getline(cin,ppl.travelhistory[i]);
 
-
-    cout<<ppl.name[i]; cout<<"\n";
-    cout<<ppl.address[i];cout<<"\n";
-    cout<<ppl.age[i]; cout<<"\n";
-    cout<<ppl.sex[i];cout<<"\n";
-    cout<<ppl.vaccine[i];cout<<"\n";
-    cout<<ppl.quarantine[i];cout<<"\n";
-    cout<<ppl.contactppl[i];cout<<"\n";
-    cout<<ppl.contactno[i];cout<<"\n";
-    cout<<ppl.email[i];cout<<"\n";
-    cout<<ppl.travelhistory[i];cout<<"\n";
+    // //for double checking
+    // cout<<ppl.name[i]; cout<<"\n";
+    // cout<<ppl.address[i];cout<<"\n";
+    // cout<<ppl.age[i]; cout<<"\n";
+    // cout<<ppl.sex[i];cout<<"\n";
+    // cout<<ppl.vaccine[i];cout<<"\n";
+    // cout<<ppl.quarantine[i];cout<<"\n";
+    // cout<<ppl.contactppl[i];cout<<"\n";
+    // cout<<ppl.contactno[i];cout<<"\n";
+    // cout<<ppl.email[i];cout<<"\n";
+    // cout<<ppl.travelhistory[i];cout<<"\n";
 
 };

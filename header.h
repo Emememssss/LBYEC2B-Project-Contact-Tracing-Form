@@ -3,8 +3,9 @@
 
 using namespace std;
 
-// void date();
+char* date();
 void gatherinfo(int i);
+void save(int loop, struct person ppl);
 
 struct person
 {
@@ -22,4 +23,3 @@ struct person
 };
 
 struct person ppl;
-
