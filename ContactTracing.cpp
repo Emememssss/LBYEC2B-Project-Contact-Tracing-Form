@@ -36,7 +36,6 @@ int main()
     cout<<"© Term 3 - S.Y. 2020 - 2021";
     getchar();
 
-    // date();
     continuee=1;
     system("clear");
 
