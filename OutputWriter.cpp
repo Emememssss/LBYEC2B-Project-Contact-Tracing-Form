@@ -2,6 +2,7 @@
 #include "header.h"
 #include <ctime>
 #include <iostream>
+#include <strings.h>
 // #include <sys/stat.h>
 // #include <sys/types.h>
 
@@ -11,10 +12,13 @@ void save(int loop, struct person ppl)
 {   
     int i;
     char* title;
+    char* final;
 
     ofstream fileOut;
     title = date();
-    fileOut.open(title);
+    final = strtok(title,"\r\n");
+
+    fileOut.open(final);
 
     for(i=1; i<=loop; i++){
     fileOut<<title; fileOut<<"\n\n";
@@ -30,5 +34,4 @@ void save(int loop, struct person ppl)
     fileOut<<"Email:           "<<ppl.email[i];fileOut<<"\n";
     fileOut<<"Travels:         "<<ppl.travelhistory[i];fileOut<<"\n\n\n";
     }
-
 } 

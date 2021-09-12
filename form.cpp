@@ -39,6 +39,10 @@ void gatherinfo(int i){
     cout<<"List your travels for the last 14 days: ";
     std::getline(cin,ppl.travelhistory[i]);
 
+    cout<<"\n\nPress any key to confirm";
+    getchar();
+    system("clear");
+
     // //for double checking
     // cout<<ppl.name[i]; cout<<"\n";
     // cout<<ppl.address[i];cout<<"\n";
