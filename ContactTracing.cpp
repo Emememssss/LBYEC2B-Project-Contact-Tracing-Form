@@ -17,7 +17,6 @@ int main()
     char magicword[200]; int magicwordd;
     char stop[5] = "stop";
     int counter;
-    ppl.customers=0;
 
 
     system("clear"); //for macOS  
@@ -26,19 +25,15 @@ int main()
     counter=0;
     cout<<"\n\n"; 
     cout<<"Made by: \n\n";
-<<<<<<< Updated upstream
     cout<<"Fransisco, Edgardo Jr.         - BS - ECE - ID 119\n";
-=======
-    cout<<"Francisco, Edgardo Jr.         - BS - ECE - ID 119\n";
->>>>>>> Stashed changes
     cout<<"Umali, Allan Emmanuel B.       - BS - ECE - ID 119\n";
     cout<<"Valencia, Jenine               - BSMS-ECE - ID 119\n";
-    cout<<"Yap, Patricia Angela           - BS-IE-IT - ID 119\n\n";
-    cout<<"Term 3 - S.Y. 2020 - 2021\n\n\n";
+    cout<<"Yap, Patricia Angela           - BS-IE-IT - ID 119\n\n\n";
     cout<<"This is a startup entry\n";
     cout<<"type 'stop' when prompted to exit and save program\n\n";
     cout<<"Press any key to continue...";
     cout<<"\n\n\n\n\n";
+    cout<<"© Term 3 - S.Y. 2020 - 2021";
     getchar();
 
     continuee=1;
@@ -60,9 +55,7 @@ int main()
 
     system("clear"); 
     counter+=1;
-    ppl.customers++;
-    cout<<"Entry no. " <<counter; 
-	cout<<"\n\n";
+    cout<<"Entry no. " <<counter; cout<<"\n\n";
     gatherinfo(counter);
     }
 

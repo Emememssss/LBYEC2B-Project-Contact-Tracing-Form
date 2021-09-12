@@ -5,8 +5,7 @@
 
 using namespace std;
 
-void gatherinfo(int i)
-{
+void gatherinfo(int i){
     cout<<"Entry: "; date(); cout<< "\n\n";
     
     cin.ignore();
@@ -24,11 +23,6 @@ void gatherinfo(int i)
 
     cout<<"Vaccinated (Y/N): ";
     std::getline(cin,ppl.vaccine[i]);
-    if (ppl.vaccine[i]=="Y")
-    {
-        cout<<"vaccinated has increased.";
-        vaccinated++;
-    }
 
     cout<<"Quarantined for the past 14 days? (Y/N): ";
     std::getline(cin,ppl.quarantine[i]);
