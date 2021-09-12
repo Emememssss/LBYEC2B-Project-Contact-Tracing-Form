@@ -1,0 +1,83 @@
+=======================  SUMMARY  =======================
+
+Total Vaccinated:           1
+Total Unvaccinated:         3
+
+Quarantined Individuals:    1
+
+Total Male:                 2
+Total Female:               1
+
+Morning Attendees:          4
+Afternoon Attendees:        0
+Evening Attendees:          0
+
+======================= INDIVIDUALS =======================
+Mon Sep 13 00:10:57 2021
+
+Entry: 1
+
+
+Name:            Allan Emmanuel B. Umali
+Address:         Quezon City
+Age:             20
+Sex:             M
+Vaccinated:      N
+Quarantined:     Y
+Recent Contacts: mohammed
+Contact Number:  09134134134
+Email:           allan@email.com
+Travels:         amazon
+
+
+Mon Sep 13 00:10:57 2021
+
+Entry: 2
+
+
+Name:            EJ Francisco
+Address:         Bulacan
+Age:             20
+Sex:             M
+Vaccinated:      N
+Quarantined:     N
+Recent Contacts: Aliens
+Contact Number:  09351515
+Email:           ej@gmail.com
+Travels:         atlantis
+
+
+Mon Sep 13 00:10:57 2021
+
+Entry: 3
+
+
+Name:            Jennie Kim 
+Address:         South Korea
+Age:             25
+Sex:             f
+Vaccinated:      N
+Quarantined:     N
+Recent Contacts: AMEN
+Contact Number:  A
+Email:           A
+Travels:         A
+
+
+Mon Sep 13 00:10:57 2021
+
+Entry: 4
+
+
+Name:            F
+Address:         F
+Age:             
+Sex:             F
+Vaccinated:      Y
+Quarantined:     N
+Recent Contacts: Y
+Contact Number:  Y
+Email:           Y
+Travels:         Y
+
+

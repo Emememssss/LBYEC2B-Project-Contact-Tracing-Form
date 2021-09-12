@@ -22,7 +22,7 @@ void save(int loop, struct person ppl, int vaccineYY, int vaccineNN, int quarant
 
     fileOut<<"=======================  SUMMARY  =======================";
     fileOut<<"\n\n";
-    fileOut<<"Total Vaccinated:             "<<vaccineYY;
+    fileOut<<"Total Vaccinated:           "<<vaccineYY;
     fileOut<<"\nTotal Unvaccinated:         "<<vaccineNN<<"\n";
     fileOut<<"\nQuarantined Individuals:    "<<quarantineYY<<"\n";
     fileOut<<"\nTotal Male:                 "<<malecounterr;
