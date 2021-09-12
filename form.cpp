@@ -2,11 +2,17 @@
 #include <ctime>
 #include "header.h"
 #include "date.cpp"
+#include "TimeCounter.cpp"
 
 using namespace std;
 
-void gatherinfo(int i){
+int gatherinfo(int i, int* morning, int* afternoon, int* evening)
+{
+    int morningcounterr; 
+    int afternooncounterr; 
+    int eveningcounterr;
     cout<<"Entry: "; date(); cout<< "\n\n";
+    timecounter(&morningcounterr, &afternooncounterr, &eveningcounterr);
     
     cin.ignore();
     cout<<"Name: ";
@@ -18,7 +24,7 @@ void gatherinfo(int i){
     cout<<"Age: ";
     std::getline(cin,ppl.age[i]);
 
-    cout<<"Sex: ";
+    cout<<"Sex (M/F): ";
     std::getline(cin,ppl.sex[i]);
 
     cout<<"Vaccinated (Y/N): ";
@@ -39,9 +45,13 @@ void gatherinfo(int i){
     cout<<"List your travels for the last 14 days: ";
     std::getline(cin,ppl.travelhistory[i]);
 
-    cout<<"\n\nPress any key to confirm";
+    cout<<"\n\nPress any key to confirm   ";
     getchar();
     system("clear");
+
+    *morning = morningcounterr;
+    *afternoon = afternooncounterr;
+    *evening = eveningcounterr;
 
     // //for double checking
     // cout<<ppl.name[i]; cout<<"\n";

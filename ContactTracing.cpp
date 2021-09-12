@@ -7,17 +7,22 @@
 #include "form.cpp"
 #include "OutputWriter.cpp"
 #include <fstream>
+#include "Counters.cpp"
 
 using namespace std;
 
 int main()
 {
     int i;
+    int morning, afternoon, evening;
     char continuee; 
     char magicword[200]; int magicwordd;
     char stop[5] = "stop";
     int counter;
+    int vaccineYY; int vaccineNN; int quarantineYY; int malecounterr; int femalecounterr;
 
+    morning=0; afternoon=0; evening=0;
+    int morningfrom, afternoonfrom, eveningfrom; 
 
     system("clear"); //for macOS  
     //system("clc"); //i think this is for windows
@@ -25,7 +30,7 @@ int main()
     counter=0;
     cout<<"\n\n"; 
     cout<<"Made by: \n\n";
-    cout<<"Fransisco, Edgardo Jr.         - BS - ECE - ID 119\n";
+    cout<<"Francisco, Edgardo Jr.         - BS - ECE - ID 119\n";
     cout<<"Umali, Allan Emmanuel B.       - BS - ECE - ID 119\n";
     cout<<"Valencia, Jenine               - BSMS-ECE - ID 119\n";
     cout<<"Yap, Patricia Angela           - BS-IE-IT - ID 119\n\n\n";
@@ -49,14 +54,20 @@ int main()
     if(magicwordd==0){
         continuee=0;
         printf("Terminating...");
-        save(counter,ppl);
+        Counters(counter,ppl,&vaccineYY, &vaccineNN, &quarantineYY, &malecounterr, &femalecounterr);
+        save(counter,ppl,vaccineYY,vaccineNN,quarantineYY,malecounterr,femalecounterr,morning,afternoon,evening);
+
         return 0;
     }
 
     system("clear"); 
     counter+=1;
     cout<<"Entry no. " <<counter; cout<<"\n\n";
-    gatherinfo(counter);
+    gatherinfo(counter,&morningfrom,&afternoonfrom,&eveningfrom);
+    morning = morning+morningfrom;
+    afternoon = afternoon+afternoonfrom;
+    evening = evening+eveningfrom;
+
     }
 
 
