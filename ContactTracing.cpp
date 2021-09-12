@@ -26,7 +26,7 @@ int main()
     cout<<"\n\n"; 
     cout<<"Made by: \n\n";
     cout<<"Fransisco, Edgardo Jr.         - BS - ECE - ID 119\n";
-    cout<<"Umali, Allan Emmanuel B. Umali - BS - ECE - ID 119\n";
+    cout<<"Umali, Allan Emmanuel B.       - BS - ECE - ID 119\n";
     cout<<"Valencia, Jenine               - BSMS-ECE - ID 119\n";
     cout<<"Yap, Patricia Angela           - BS-IE-IT - ID 119\n\n\n";
     cout<<"This is a startup entry\n";
