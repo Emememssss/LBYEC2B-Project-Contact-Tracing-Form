@@ -9,7 +9,15 @@ void save(int loop, struct person ppl);
 
 struct person
 {
-    std::string date[10000];
+	double vaccinated = 0;
+	double unvaccinated = 0;
+	double customers = 0;
+	double morning = 0;
+	double afternoon = 0;
+	double evening = 0;
+	double attendees = 0;
+	double quarantined = 0;
+	std::string date[10000];
     std::string name[10000];
     std::string address[10000];
     std::string age[10000];
