@@ -67,8 +67,5 @@ int main()
     morning = morning+morningfrom;
     afternoon = afternoon+afternoonfrom;
     evening = evening+eveningfrom;
-
     }
-
-
 }
